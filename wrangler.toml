@@ -1,0 +1,9 @@
+name = "iamk"
+type = "javascript"
+account_id = "2272913f64cc24a90c1242263e7c9482"
+route = "iamkondratenko.com/*"
+zone_id = "108284803ce0089d32362eedfd3abe94"
+
+[site]
+bucket = "./" # <-- Add your build directory name here!
+entry-point = "workers-site"

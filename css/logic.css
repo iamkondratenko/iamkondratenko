@@ -1,0 +1,61 @@
+/*LOGIC CSS*/
+@keyframes fadeInFromNone {
+  from {
+	display: none;
+	opacity: 0;
+  }
+  1% {
+ 	display: none;
+	opacity: 0;
+  }
+  to {
+ 	display: block;
+	opacity: 1;
+  }
+}
+
+.overlay:target ~ div {
+    display: none;
+}
+
+.overlay
+{
+	display: none;
+	opacity: 0;
+	position: absolute;
+	top: 9999px;
+	width: 100%;
+}
+
+.overlay:target
+{
+	animation-duration: 1.5s;
+	animation-name: fadeInFromNone;
+	background-color: #0F0C0D;
+	opacity: 1;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 680;
+}
+
+#contacts:target
+{
+	display: block;
+}
+
+#openmenu:target
+{
+	display: block;
+}
+
+#wp:target,
+#mb:target,
+#pt:target,
+#sg:target,
+#contacts:target
+{
+	display: block;
+}
+
