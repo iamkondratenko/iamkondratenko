@@ -1930,8 +1930,8 @@ hr.sml {
 /*waypoint*/
 
 p.discribe.waypoint-masked {
-    background-image: url(../img/wp/masked-discribtion.jpg);
-    -webkit-background-clip: text;
+    /* background-image: url(../img/wp/masked-discribtion.jpg);
+    -webkit-background-clip: text; */
     color: transparent !important;
 }
 
